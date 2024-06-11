@@ -1,0 +1,19 @@
+<!-- templates/views/index.hbs -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/app3.js"></script>
+  </head>
+  <body>
+    {{> header}}
+    <h1>{{title}}</h1>
+    <p>Welcome to the home page, created by {{name}}.</p>
+      <form>
+    <input type="text" id="address" placeholder="Enter Location">
+    <button>Search</button>
+  </form>
+  <p id="message-1"></p>
+  <p id="message-2"></p>
+  </body>
+</html>
